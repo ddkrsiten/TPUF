@@ -37,5 +37,6 @@ nohup python -u main.py --dataset Amazon_sport --maxlen 50 --model SASRec --l2_e
 ```
 
 ### Training
-You need to set --model TPUF while trainning TPUF model.
-All the recommended parameters are recorded in "run.sh". You can run the commands in "run.sh" to reproduce our experiments.
+Please set --model TPUF while trainning TPUF model.
+
+All the recommended parameters are recorded in "run.sh". You could run the commands in "run.sh" to reproduce our experiments.
