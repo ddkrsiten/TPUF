@@ -2,8 +2,11 @@
 This is the repository of our work 《TPUF: Enhancing Cross-domain Sequential Recommendation via Transferring Pre-trained User Features》
 ## Requirements
 * Python 3.7.16
+* pandas==1.3.5
+* scipy==1.7.3
+* torch==1.13.0+cu117
 
-You may use " pip install -r requirements.txt" to install all the required libraries.
+You may use "pip install -r requirements.txt" to install all the required libraries.
 ## Usage
 
 ### Datasets
@@ -17,7 +20,7 @@ https://nijianmo.github.io/amazon/index.html
 
 https://github.com/FengZhu-Joey/GA-DTCDR
 
-Note: Regarding Amazon Movies-Books, we used the 2014 version, while regarding Amazon Sports-Clothing, we used the 2018 version.
+Note: Regarding Amazon Movies-Books datasets, we used the 2014 version, while regarding Amazon Sports-Clothing datasets, we used the 2018 version.
 
 ### Preparation
 The models in "s_model" file are the pre-trained source models including MF, MLP and SASRec. As there are numerous implementations of MF and MLP available online, we do not provide training process for these two types of models here. However, you could still use them as source-domain models to train TPUF.
