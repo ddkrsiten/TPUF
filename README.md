@@ -27,13 +27,13 @@ The models in "s_model" file are the pre-trained source models including MF, MLP
 
 If you want to retrain SASRec as the source-domain model, you can use the following code:
 ```
-nohup python -u main.py --dataset douban_movie --maxlen 50 --model SASRec --l2_emb 0.0 --hidden_units 32 --num_epochs 200 --gpu 0 > a.logs 2>&1 &
+nohup python -u main.py --dataset douban_movie --maxlen 50 --model SASRec --l2_emb 0.0 --hidden_units 32 --num_epochs 200 --gpu 0 > logs/a.logs 2>&1 &
 ```
 ```
-nohup python -u main.py --dataset Amazon_movie --maxlen 50 --model SASRec --l2_emb 0.0 --hidden_units 32 --num_epochs 200 --gpu 0 > b.logs 2>&1 &
+nohup python -u main.py --dataset Amazon_movie --maxlen 50 --model SASRec --l2_emb 0.0 --hidden_units 32 --num_epochs 200 --gpu 0 > logs/b.logs 2>&1 &
 ```
 ```
-nohup python -u main.py --dataset Amazon_sport --maxlen 50 --model SASRec --l2_emb 0.0 --hidden_units 32 --num_epochs 200 --gpu 0 > c.logs 2>&1 &
+nohup python -u main.py --dataset Amazon_sport --maxlen 50 --model SASRec --l2_emb 0.0 --hidden_units 32 --num_epochs 200 --gpu 0 > logs/c.logs 2>&1 &
 ```
 
 ### Training
