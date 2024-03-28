@@ -23,7 +23,7 @@ https://github.com/FengZhu-Joey/GA-DTCDR
 Note: Regarding Amazon Movies-Books datasets, we used the 2014 version, while regarding Amazon Sports-Clothing datasets, we used the 2018 version.
 
 ### Preparation
-The models in "s_model" file are the pre-trained source models including MF, MLP and SASRec. As there are numerous implementations of MF and MLP available online, we do not provide training process for these two types of models here. However, you could still use them as source-domain models to train TPUF.
+The models in "s_model" file are the pre-trained source models including MF, MLP and SASRec. As there are numerous implementations of MF and MLP available online, we do not provide training process for these two types of models here. However, you could use them as source-domain models to train TPUF.
 
 If you want to retrain SASRec as the source-domain model, you can use the following code:
 ```
